@@ -13,6 +13,10 @@ header {
     padding: 8px 48px;
 }
 
+.darkgray-text {
+    color: #112112
+}
+
 .centered-text {
     text-align: center;
 }
@@ -62,7 +66,7 @@ a:hover {
 }
 
 .hero-subtext {
-    text-align: justify
+    text-align: justify;
 }
 
 .hero-img {
@@ -95,11 +99,37 @@ a:hover {
     max-width: 300px;
 }
 
-.card-img {
+.card-rooms {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin: 24px;
+}
+
+.card-img-main {
     max-width: 300px;
     object-fit: cover;
     margin-bottom: 8px;
     aspect-ratio: 1;
+}
+
+.card-img-rooms {
+    max-width: 500px;
+    max-height: auto;
+}
+
+.card-content-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.room-title {
+    font-size: 20px;
+}
+
+.room-description {
+    font-size: 16px;
 }
 
 footer {

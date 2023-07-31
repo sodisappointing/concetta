@@ -38,13 +38,14 @@ a:hover {
 .header-links {
     display: flex;
     gap: 16px;
-    font-size: 18px;
+    font-size: 120%;
     list-style: none;
+    margin: 0 12px 0 12px;
 }
 
 .book-your-stay {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 125%;
 }
 
 .hero {
@@ -57,7 +58,7 @@ a:hover {
 
 .hero-header{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 150%;
     margin: 0px;
 }
 
@@ -71,7 +72,7 @@ a:hover {
 }
 
 .hero-img {
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .card-section {
@@ -97,7 +98,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 300px;
+    max-width: 25%;
 }
 
 .card-rooms {
@@ -108,14 +109,14 @@ a:hover {
 }
 
 .card-img-main {
-    max-width: 300px;
+    max-width: 100%;
     object-fit: cover;
     margin-bottom: 8px;
     aspect-ratio: 1;
 }
 
 .card-img-rooms {
-    max-width: 500px;
+    max-width: 40%;
     max-height: auto;
 }
 
@@ -126,11 +127,16 @@ a:hover {
 }
 
 .room-title {
-    font-size: 20px;
+    font-size: 125%;
+    font-weight: bold;
 }
 
 .room-description {
-    font-size: 16px;
+    font-size: 95%;
+}
+
+.room-price {
+    font-size: 125%;
 }
 
 footer {
@@ -150,10 +156,10 @@ footer {
 }
 
 .footer-card-text {
-    font-size: 14px;
+    font-size: 85%;
 }
 
 .copyright {
     align-self: center;
-    font-size: 14px;
+    font-size: 80%;
 }

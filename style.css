@@ -1,0 +1,124 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 48px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #19345D;
+}
+
+a:hover {
+    color: #7D8A9C;
+}
+
+.header-logo{
+    font-weight:bold;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.book-your-stay {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+}
+
+.hero-header{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-subtext {
+    text-align: justify
+}
+
+.hero-img {
+    max-width: 600px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.card-img {
+    max-width: 300px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    aspect-ratio: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.footer-card-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.copyright {
+    align-self: center;
+    font-size: 14px;
+}

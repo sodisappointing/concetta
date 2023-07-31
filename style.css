@@ -13,6 +13,10 @@ header {
     padding: 8px 48px;
 }
 
+.centered-text {
+    text-align: center;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: #19345D;
@@ -116,7 +120,6 @@ footer {
 
 .footer-card-text {
     font-size: 14px;
-    text-align: center;
 }
 
 .copyright {

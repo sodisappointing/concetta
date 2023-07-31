@@ -5,6 +5,7 @@ body {
     margin: 0px;
     flex: 1;
     min-width: 0;
+    min-height: 0;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 48px;
+    max-width: 90%;
 }
 
 .darkgray-text {
@@ -37,10 +39,11 @@ a:hover {
 
 .header-links {
     display: flex;
-    gap: 16px;
+    gap: 10%;
     font-size: 120%;
     list-style: none;
-    margin: 0 12px 0 12px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .book-your-stay {
@@ -52,8 +55,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
-    gap: 32px;
+    padding: 8%;
+    gap: 4%;
 }
 
 .hero-header{
@@ -65,14 +68,21 @@ a:hover {
 .hero-container {
     display: flex;
     flex-direction: column;
+    max-width: 40%;
 }
 
 .hero-subtext {
     text-align: justify;
+    font-size: 100%;
+}
+
+.rooms-hero {
+    max-width: 85%;
 }
 
 .hero-img {
     max-width: 100%;
+    object-fit: contain;
 }
 
 .card-section {
@@ -104,8 +114,10 @@ a:hover {
 .card-rooms {
     display: flex;
     flex-direction: row;
+    flex: 1;
     align-items: left;
     margin: 24px;
+    max-width: 85%;
 }
 
 .card-img-main {
@@ -116,14 +128,16 @@ a:hover {
 }
 
 .card-img-rooms {
-    max-width: 40%;
-    max-height: auto;
+    max-width: 60%;
+    height: auto;
+    object-fit: contain;
 }
 
-.card-content-column {
+.card-content-rooms {
     display: flex;
     flex-direction: column;
     margin-left: 8px;
+    max-width: 40%;
 }
 
 .room-title {

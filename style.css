@@ -35,6 +35,7 @@ a:hover {
 
 .header-logo{
     font-weight:bold;
+    font-size: 1.75rem;
 }
 
 .header-links {
@@ -45,6 +46,7 @@ a:hover {
     list-style: none;
     margin-left: 10%;
     margin-right: 10%;
+    max-width: 50%;
 }
 
 .book-your-stay {
@@ -100,7 +102,7 @@ a:hover {
 
 .card-text {
     text-align: justify;
-    font-size: .8rem;
+    font-size: .85rem;
     margin: 4px;
 }
 
@@ -172,10 +174,16 @@ footer {
 }
 
 .footer-card-text {
-    font-size: .85rem;
+    font-size: .8rem;
 }
 
 .copyright {
     align-self: center;
-    font-size: .85rem;
+    font-size: .8rem;
+}
+
+@media screen and (max-width : 480px) {
+    body {
+        font-size: 12px;
+    }
 }

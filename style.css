@@ -35,14 +35,14 @@ a:hover {
 
 .header-logo{
     font-weight:bold;
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 .header-links {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2rem;
-    gap: 12px;
+    font-size: 1.5rem;
+    gap: 1rem;
     list-style: none;
     margin-left: 10%;
     margin-right: 10%;
@@ -51,20 +51,20 @@ a:hover {
 
 .book-your-stay {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.75rem;
 }
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8%;
-    gap: 4%;
+    padding: 2rem;
+    gap: 2rem;
 }
 
 .hero-header{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0px;
 }
 
@@ -76,6 +76,7 @@ a:hover {
 
 .hero-subtext {
     text-align: justify;
+    font-size: 1.25rem;
 }
 
 .rooms-hero {
@@ -90,20 +91,24 @@ a:hover {
 .card-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     flex-wrap: wrap;
+}
+
+.card-section-rooms {
+    flex-direction: column;
 }
 
 .card-title {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .card-text {
     text-align: justify;
-    font-size: .85rem;
-    margin: 4px;
+    font-size: 1.25rem;
+    margin: .25rem;
 }
 
 .card {
@@ -138,23 +143,23 @@ a:hover {
 .card-content-rooms {
     display: flex;
     flex-direction: column;
-    margin-left: 8px;
+    margin-left: .5rem;
     max-width: 40%;
     max-height: 100%;
     justify-content: space-evenly;
 }
 
 .room-title {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 
 .room-description {
-    font-size: .95rem;
+    font-size: 1.25rem;
 }
 
 .room-price {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 footer {
@@ -173,8 +178,9 @@ footer {
     align-items:center;
 }
 
-.footer-card-text {
-    font-size: .8rem;
+.footer-card-heading, .footer-card-text {
+    margin: 0;
+    font-size: 1rem;
 }
 
 .copyright {

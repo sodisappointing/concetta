@@ -35,7 +35,7 @@ a:hover {
 
 .header-logo{
     font-weight:bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .header-links {
@@ -46,12 +46,12 @@ a:hover {
     list-style: none;
     margin-left: 10%;
     margin-right: 10%;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .book-your-stay {
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 .hero {
@@ -116,6 +116,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     max-width: 25%;
+    margin: 1.5rem;
 }
 
 .card-rooms {

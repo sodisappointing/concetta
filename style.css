@@ -193,3 +193,16 @@ footer {
     align-self: center;
     font-size: .8rem;
 }
+
+#policies {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+.policy-text {
+    text-align: justify;
+}

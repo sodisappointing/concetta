@@ -119,6 +119,7 @@ a:hover {
     max-width: 30%;
     margin: 1.5rem;
     text-align: center;
+    min-width: 20%;
 }
 
 .card-rooms {

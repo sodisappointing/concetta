@@ -194,7 +194,7 @@ footer {
     font-size: .8rem;
 }
 
-#policies {
+.body-text {
     display: flex;
     flex-direction: column;
     max-width: 75%;

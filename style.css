@@ -97,7 +97,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.card-section-rooms {
+.card-section-column {
     flex-direction: column;
 }
 

@@ -206,3 +206,12 @@ footer {
 .policy-text {
     text-align: justify;
 }
+
+.body-img-container {
+    margin: .5rem;
+}
+
+.body-img-caption {
+    font-style: italic;
+    margin-bottom: 0;
+}

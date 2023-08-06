@@ -103,7 +103,7 @@ a:hover {
 
 .card-title {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .card-text {
@@ -151,11 +151,6 @@ a:hover {
     max-width: 60%;
     max-height: 100%;
     justify-content: space-evenly;
-}
-
-.room-title {
-    font-size: 1.75rem;
-    font-weight: bold;
 }
 
 .room-description {
@@ -214,4 +209,10 @@ footer {
 .body-img-caption {
     font-style: italic;
     margin-bottom: 0;
+}
+
+.card-img-amenities {
+    max-width: 40%;
+    object-fit: cover;
+    aspect-ratio: 1;
 }

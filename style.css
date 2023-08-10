@@ -36,7 +36,9 @@ a:hover {
 
 .header-logo{
     font-weight:bold;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
+    font-family: 'Great Victorian Swashed', serif;
+    min-width: fit-content;
 }
 
 .header-links {
@@ -53,6 +55,7 @@ a:hover {
 .book-your-stay {
     font-weight: bold;
     font-size: 1.5rem;
+    min-width: fit-content;
 }
 
 .hero {
@@ -232,4 +235,21 @@ footer {
 .map-embed {
     width: 100%;
     height: 400px;
+}
+
+@font-face {
+    font-family: 'Great Victorian';
+    src: url('fonts/great-victorian/standard/great-victorian.standard-webfont.woff2') format('woff2'),
+         url('fonts/great-victorian/standard/great-victorian.standard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Great Victorian Swashed';
+    src: url('fonts/great-victorian/swashed/great-victorian.swashed-webfont.woff2') format('woff2'),
+         url('fonts/great-victorian/swashed/great-victorian.swashed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

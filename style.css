@@ -142,7 +142,7 @@ a:hover {
 }
 
 .card-img-main {
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     margin-bottom: 8px;
     aspect-ratio: 1;

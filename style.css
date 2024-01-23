@@ -233,12 +233,3 @@ footer {
     width: 95%;
     height: 600px;
 }
-
-.promo-flyer {
-    display: flex;
-    align-self: center;
-}
-
-.promo-flyer-img {
-    max-height: 100vh;
-}
